@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notas</title>
+   <meta charset="utf-8">
+  <link rel="stylesheet" href = "style_d8.css">
+</head>
+
+<body>
+
+<div class="h1"><strong>Lançamento de notas</strong></div>
+
+<tr>
+      <td><div class="h2"><label for="idCategoria">Selecione a disciplina</label>
+            
+      <select name="categoria" id="idCategoria">
+        <option value="I">Introdução à informática</option>
+        <option value="L">Linguagens de Programação</option>
+        <option value="P">Programação de Computadores</option>
+      </select>
+    </div>
+      </td>
+ 
+    <table>
+        <div>
+            <table><tr><th><strong>
+                    <th>Nome do aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Exame</th>
+                    <th>Média</th>
+                    <th>Faltas</th> 
+                </strong></th></tr>
+
+            <tr><th>
+            <th>Joana da Silva</th>
+                        <td><input type="number"  min="0.0" step="0.1" max="10.0" required=""></td>
+                        <td><input type="number"  min="0.0" step="0.1" max="10.0" required=""></td>
+                        <td><input type="number"  min="0.0" step="0.1" max="10.0" name="Exame" ></td>
+                        <td><input type="number"  min="0.0" step="0.1" max="10.0" readonly ></td>
+                        <td><input type="number"  min="0.0" step="1" max="16"     required=""></td>
+                        
+            </th></tr>
+
+            <tr><th>
+            <th>Maria do Socorro</th>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" required=""></td>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" required=""></td>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" name="Exame" ></td>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" readonly ></td>
+            <td><input type="number"  min="0.0" step="1" max="16"     required=""></td>
+                        
+            </th></tr>
+            
+            <tr><th>
+            <th>Pedro Santos</th>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" required=""></td>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" required=""></td>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" name="Exame" ></td>
+            <td><input type="number"  min="0.0" step="0.1" max="10.0" readonly ></td>
+            <td><input type="number"  min="0.0" step="1" max="16"     required=""></td>
+
+                </th></tr>
+    
+                <tr><th>
+                    <input type="button" value="Salvar">
+                    <input type="button" value="Limpar">
+                </th></tr>                                  
+                
+            </table>
+        </div>
+</tr>
+</body>
+
+
+CSS File
+
+.h1{font-family: Arial;
+    font-size: 26px;
+    text-align: left;
+color: darkblue;
+text-indent:0px;
+}
+
+.h2{font-family: Arial;
+font-size: 18px;
+text-align: left;
+color: darkblue;
+text-indent:0px;
+}
+                   
